@@ -83,6 +83,5 @@ exports.validateRule = (req, res, next) => {
     });
   } catch (err) {
     next(err);
-    //return next(new AppError(`Invalid JSON payload passed.`, 400));
   }
 };

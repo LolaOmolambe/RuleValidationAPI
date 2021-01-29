@@ -107,7 +107,6 @@ describe("Validation Endpoints", () => {
       });
     expect(res.status).toEqual(400);
     expect(res.body.status).toEqual("error");
-    //expect(res.body.message).toEqual("data should be a string,array,object.");
     expect(res.body.message).toEqual("Invalid JSON payload passed.");
     expect(res.body.data).toEqual(null);
   });
