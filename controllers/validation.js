@@ -10,7 +10,7 @@ exports.information = (req, res, next) => {
         github: "@LolaOmolambe",
         email: "lola.omolambe@gmail.com",
         mobile: "08031364884",
-        twitter: "",
+        twitter: "@lolalambe",
       },
     });
   } catch (err) {
